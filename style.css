@@ -1,0 +1,56 @@
+body{
+    margin: 0px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    overflow-y: hidden;
+}
+.mainContainer{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    min-width: 650px;
+    height: 85vh;
+    background-color: #e0ffff ;
+    max-height: calc(85vh - 20px);
+    align-items: center;
+    border-radius: 15px;
+}
+pre#lyrics{
+    overflow-y: scroll;
+    background-color: #afeeee;
+    width: calc(75% - 20px);
+    border-radius: 10px;
+    padding: 10px;
+}
+div.userinput{
+    width: 75%;
+    padding-top: 20px;
+
+    display: flex;
+    justify-content: space-between;
+
+    padding-left: 50px;
+    padding-right: 50px;
+}
+button{
+    width: 75%;
+    height: 50px;
+    min-height: 50px;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    background-color: #7fffd4;
+    transition: background-color 0.3s ease-in-out;
+    margin-top: 20px;
+}
+button:hover{
+    background-color:#40e0d0;
+    cursor: pointer;
+}
+
+.author{
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
