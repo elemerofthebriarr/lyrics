@@ -1,6 +1,6 @@
 
-
-function falanfilan(){
+function showLyrics(){
+    document.querySelector("pre").style.visibility = "visible"
     const songname = document.querySelector("#songname").value
     const artist = document.querySelector("#artist").value
     console.log(songname, artist)
