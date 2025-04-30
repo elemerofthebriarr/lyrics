@@ -17,6 +17,7 @@ body{
     border-radius: 15px;
 }
 pre#lyrics{
+    visibility: hidden;
     overflow-y: scroll;
     background-color: #afeeee;
     width: calc(75% - 20px);
